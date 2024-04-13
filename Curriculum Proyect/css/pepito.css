@@ -1,0 +1,170 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.header{
+  display: flex;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1561736778-92e52a7769ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+}
+.mostrar{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.nombres{
+  display: flex;
+  width: 50%;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1, h2{
+  display: flex;
+  align-self: flex-end;
+  justify-content: end;
+  margin-right: 50px;
+  
+}
+
+.nombres h1:hover{
+  font-size: 50px;
+  transition: ease 0.6s;
+  text-shadow: -5px 5px 5px black;
+  color: aquamarine;
+}
+
+
+.nombres h2:hover{
+  font-size: 40px;
+  transition: ease 0.5s;
+  text-shadow: -5px 5px 5px black;
+  color: aquamarine;
+}
+.img-nombre{
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 50%;
+}
+
+.img-nombre img{
+  width: 600px;
+  height: 350px;
+
+  border-radius: 10px;
+  transition: ease 0.6s;
+}
+
+.img-nombre img:hover{
+  filter: blur(5px);
+}
+
+
+
+
+.conocimientos{
+  background-image: url(https://imgs.search.brave.com/WcXWNUxHbnBcfnSoiD219xKpdwJCwwTjlek6qjV2jHU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jb25j/ZXB0by5kZS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxNC8wOC9w/cm9ncmFtYWNpb24t/Mi1lMTU1MTI5MTE0/NDk3My5qcGc);
+  background-size: cover;
+}
+.mid{
+  padding: 30px;
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: rgb(223, 146, 4);
+  
+}
+.links{
+  display: block;
+  font-size: 80px;
+  color: rgb(102, 192, 192);
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  list-style: none;
+}
+.habs{
+  padding: 20px;
+  margin: 20px;
+  border: rgb(223, 146, 4) 2px solid;
+  background-color: #474646;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5)
+}
+
+
+.foto{ 
+  height: 250px;
+  width: 250px;
+}
+.parrafos{
+  font-size: 60px;
+  color: whitesmoke;
+}
+.experiencia{
+  background-color: rgb(51, 44, 44);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  padding: 20px;
+}
+.info{
+  font-size: 15px;
+  color: lightcyan;
+  margin: auto;
+  padding: 10px;
+}
+.tuki{ 
+  border-radius: 5px;
+  font-size: 10px;
+  height: 20px;
+  width: 40px;
+  background-color: red;
+}
+
+.footer{
+  background-color: rgba(0, 255, 242, 0.301);
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  justify-content: center;
+}
+.nuestro
+.footer ul{
+ border: 2px solid red;
+ list-style: none;
+ align-items: center;
+ padding: 0;
+ margin: 0;
+ display: flex;
+
+ 
+}
+.footer ul li{
+ align-items: center;   
+ justify-content: space-between;
+ display: flex;
+ font-size: 20px;
+ margin: 10px;
+ padding: 0px 20px;
+}
+.footer ul li a{
+ padding: 10px;
+ color: black;
+ text-decoration: none;
+}
+.footer ul li a:hover{
+ color: red;
+
+}
